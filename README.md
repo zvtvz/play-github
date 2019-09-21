@@ -38,6 +38,10 @@ class GithubAccount(object):
 
 ## 数据抓取
 
+>可下载数据文件并解压到datasample目录，然后接着抓
+
+>链接: https://pan.baidu.com/s/125mi5mQEGqtDveoZfsviPw 提取码: 79m8
+
 >数据的抓取是增量的，可断点续抓
 
 ### 抓取全量用户列表
@@ -56,6 +60,14 @@ python github/recorders/github/github_repo_recorder.py --start 2015-01-01 --end 
 ```
 
 > start,end代表用户注册的时间，开多个进程，指定start和end加快抓取速度
+
+### 数据查看
+datasample目录里面的db文件
+
+
+<img src="./docs/user-select.png">
+<img src="./docs/repo-select.png">
+
 
 ## api使用
 
@@ -161,4 +173,5 @@ play-github只是为了证明 [**zvdata**](https://github.com/zvtvz/zvdata) 通�
 如果你想开发和维护play-github，可与我联系。
 
 # 联系方式  
+
 微信　foolcage

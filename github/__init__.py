@@ -45,7 +45,7 @@ init_log()
 
 from zvdata.domain import init_context
 
-init_context(data_path=DATA_SAMPLE_PATH, ui_path=UI_PATH, log_path=LOG_PATH, domain_module='zvt.domain',
+init_context(data_path=DATA_SAMPLE_PATH, ui_path=UI_PATH, log_path=LOG_PATH, domain_module='github.domain',
              register_api=False)
 
 from github.domain import init_schema
